@@ -1,0 +1,44 @@
+ <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        .alert{
+            color: #72353D;  
+            background-color: #EAD2D5; 
+        }
+        h3{
+            color: blue;
+            text-align: center;
+        }
+        .convierteazul{
+          animation: animationKenny 5s infinite;
+        }
+        @keyframes animationKenny{
+          from {background-color: red;}
+          to{background-color: blue;}
+        }
+        .conviertearojo{
+          animation: animationKenny2 5s infinite;
+        }
+        @keyframes animationKenny2{
+          from {background-color: blue;}
+          to{background-color: red;}
+        }
+      </style>
+    </head>
+    <body style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1.5em;">
+    
+        <div id="main" style="background-color: whitesmoke; margin: 30px; padding: 30px; align-content: center;">
+                <h3>Let's style this website!</h3>
+        </div>
+
+        <div class="conviertearojo" style="height: 200px; background-color: blue; padding: 20px; width: 40%; border-radius: 50px; border-color: black; border-width:1px; transform: rotate(90deg);">     
+        </div>
+
+        <div class="convierteazul" style="height: 200px; background-color: red; padding: 20px; width: 40%; border-radius: 50px; border-color: black; border-width:1px; transform: rotate(90deg);" >
+        </div>
+    </body>
+  </html>
